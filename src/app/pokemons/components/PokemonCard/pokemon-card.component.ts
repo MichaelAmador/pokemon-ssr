@@ -12,7 +12,7 @@ import { RouterLink } from '@angular/router';
   selector: 'pokemon-card',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './PokemonCard.component.html',
+  templateUrl: './pokemon-card.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PokemonCardComponent {
